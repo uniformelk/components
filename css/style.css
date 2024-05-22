@@ -2,6 +2,7 @@ body{
     max-width: 1400px;
     margin: auto;
     padding: 50px 20px;
+    position: relative;
 }
 :root{
     --color-primary: #003158;
@@ -52,4 +53,20 @@ body{
     font-weight: 500;
     line-height: 30px;
     width: 95%;
+}
+.swiper-pagination{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    color: var(--white);
+    background-color: var(--orange);
+    font-size: 18px;
+    padding: 10px 20px 20px 20px;
+    width: fit-content;
+    border-radius: 20px;
+    transform: scale(1);
+    opacity: 1;
+    position: static;
 }
